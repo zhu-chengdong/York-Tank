@@ -94,7 +94,17 @@ Chengdong Zhu (2026). *York-Tank: A Degradation-Aware and Difficulty-Stratified 
 
 ## License and contact
 
-The dataset and accompanying materials are licensed under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**. See `LICENSE` in `York-Tank-Support.tar`.
+The dataset and accompanying materials are licensed under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)**. The `LICENSE` and README in `York-Tank-Support.tar` explicitly cover:
+
+| Material | Scope of the release's CC BY 4.0 notice |
+| --- | --- |
+| Dataset | Stereo images, ROS bags, IMU measurements and reference trajectory files |
+| Supporting materials | Calibration materials, documentation and metadata |
+| Supplied auxiliary software | `scripts/read_sequence.py` and `scripts/verify_release.py` |
+
+The repository [LICENSE](LICENSE) reproduces the release's original license notice and includes the full CC BY 4.0 legal text.
+
+This notice applies only to rights the York-Tank authors are entitled to license. Third-party software and dependencies retain their own licenses; this notice does not relicense them or grant permissions for externally referenced or unpublished code.
 
 **Chengdong Zhu**  
 Department of Electronic Engineering, University of York, United Kingdom  
