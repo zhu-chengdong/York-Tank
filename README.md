@@ -82,13 +82,7 @@ The ROS bag image topics are:
 - `/camera/left/image_rect_underwater`
 - `/camera/right/image_rect_underwater`
 
-The left/right images have matching timestamps. The sequence manifest lists sequence identities and counts and documents reference-trajectory time coverage.
-
-### Reference trajectory convention
-
-**Important:** The provided `gt/groundtruth.txt` files contain **raw AprilTag-array poses expressed in the fixed overhead-camera frame**. They must **not** be interpreted directly as onboard left-camera poses. A fixed transformation from the AprilTag array to the left camera is required for camera-frame trajectory evaluation; that transformation is **not included as a verified, ready-to-use conversion** in the published release.
-
-Some image timestamps fall outside the reference trajectory's temporal coverage. In particular, this affects `6_uneven_hard`, `9_fewtexture_easy`, and `10_fewtexture_hard`. Images have been retained; consult `sequence_manifest.csv` for the relevant intervals. For ATE evaluation, use consistent coordinate frames and only temporally associated poses.
+The left/right images have matching timestamps. The sequence manifest lists sequence identities and counts.
 
 ## Associated publication
 
