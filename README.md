@@ -6,7 +6,7 @@ York-Tank is a controlled underwater stereo dataset for studying how visual degr
 
 **Dataset release:** The complete 16-sequence dataset is publicly available on Zenodo as **v2**, under [DOI 10.5281/zenodo.23347574](https://doi.org/10.5281/zenodo.23347574).
 
-**Paper:** Published in *Sensors* **26**(20), 6567 (2026). [Read the published article](https://www.mdpi.com/1424-8220/26/20/6567).
+**Paper:** Published in *Sensors* **26**(20), 6567 (2026). DOI: [10.3390/s26206567](https://doi.org/10.3390/s26206567). [Read the published article](https://www.mdpi.com/1424-8220/26/20/6567).
 
 ## Dataset overview
 
@@ -86,7 +86,7 @@ The left/right images have matching timestamps. The sequence manifest lists sequ
 
 ## Associated publication
 
-Chengdong Zhu and Mark Post, “York-Tank: A Degradation-Aware and Difficulty-Stratified Stereo Dataset for Underwater Visual SLAM,” *Sensors* **26**(20), 6567 (2026). [Published article](https://www.mdpi.com/1424-8220/26/20/6567).
+Chengdong Zhu and Mark Post, “York-Tank: A Degradation-Aware and Difficulty-Stratified Stereo Dataset for Underwater Visual SLAM,” *Sensors* **26**(20), 6567 (2026). DOI: [10.3390/s26206567](https://doi.org/10.3390/s26206567). [Published article](https://www.mdpi.com/1424-8220/26/20/6567).
 
 ## Dataset citation
 
